@@ -1,0 +1,228 @@
+:root {
+  --lightest-grey:#dddddd;
+  --light-grey:#a3a3a3;
+  --dark-grey:#555555;
+}
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    background: #000;
+    color: var(--light-grey);
+}
+html section,
+html div,
+body section,
+body div {
+    position: relative
+}
+
+.block-parallax-1 {
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-bg {
+    background-attachment: fixed;
+    background-image: url('../img/green_crayon_intact.png');
+    background-position: center; 
+    background-repeat: repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    min-width: 1024px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.block-parallax-1 .container {
+    padding: 200px 0 200px;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 3em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--lightest-grey);
+}
+
+#main .title {
+    padding-bottom: 10px;
+    font-size: 3em;
+}
+
+#main .subtitle {
+    padding-bottom: 10px;
+    color: var(--dark-grey);
+    font-size: 1.5em
+}
+
+#ready {
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#ready .title {
+    margin-bottom: 20px
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15vw;
+    color: var(--dark-grey);
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+.block-parallax-2 .parallax-bg { 
+    background-image: url('../img/green_crayon_bullet.png');
+}
+
+.container-empty {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: 100%;
+}
+
+#aim {
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#aim .title {
+    margin-bottom: 20px
+}
+
+#aim .content {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15vw;
+    color: var(--dark-grey);
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+#materials {
+    border:1px solid;
+    border-color: var(--dark-grey);
+    border-collapse:collapse;
+    width:100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: var(--dark-grey);
+}
+
+#materials thead {
+    color: var(--light-grey);
+}
+
+#materials td {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border:1px solid;
+    border-color: var(--dark-grey);
+    border-collapse:collapse;
+}
+
+.block-parallax-3 .parallax-bg { 
+    background-image: url('../img/card1_intact.png');
+}
+
+
+#fire {
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#fire .title {
+    margin-bottom: 20px
+}
+
+#fire .content {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15vw;
+    color: var(--dark-grey);
+    font-size: 1.25em;
+    text-align: justify;
+}
+#fire ol {
+    color: var(--light-grey);
+    list-style-type: none;
+}
+ 
+#fire ol li{
+    position: relative;
+    font-style: bold italic;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ 
+#fire li p {
+    font-style: normal;
+    font-size: 16px;
+    padding-left: 60px;
+    color: var(--dark-grey);
+}
+ 
+#fire span {
+    position: absolute;
+    font: bold italic 35px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+#fire #sublist {
+    padding-left: 80px;
+}
+
+#fire #sublist li {
+    font-size:16px;
+    margin-bottom: 5px;
+    color: var(--dark-grey);
+}
+
+.block-parallax-4 .parallax-bg { 
+    background-image: url('../img/card1_bullet.png');
+}
+
+#results {
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#results .title {
+    margin-bottom: 20px
+}
+
+#results .content {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15vw;
+    color: var(--dark-grey);
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+h2 {
+    color: #555;
+    text-align: center; 
+    padding: 25px 0;
+    margin: 0;
+}
+
