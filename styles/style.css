@@ -1,7 +1,7 @@
 :root {
   --lightest-grey:#dddddd;
   --light-grey:#a3a3a3;
-  --dark-grey:#555555;
+  --dark-grey:#777;
 }
 html,
 body {
@@ -43,7 +43,7 @@ body div {
 
 .block-parallax-1 .container {
     padding: 200px 0 200px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     position: relative;
     height: 100%;
     text-align: center;
@@ -91,7 +91,7 @@ body div {
 }
 
 .container-empty {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     position: relative;
     height: 100%;
 }
