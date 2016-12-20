@@ -30,7 +30,7 @@ body div {
 
 .parallax-bg {
     background-attachment: fixed;
-    background-image: url('../img/green_crayon_intact.png');
+    background-image: url('../img/yellow_crayon_intact.png');
     background-position: center; 
     background-repeat: repeat;
     height: 100%;
@@ -88,7 +88,7 @@ body div {
 }
 
 .block-parallax-2 .parallax-bg { 
-    background-image: url('../img/green_crayon_bullet.png');
+    background-image: url('../img/yellow_crayon_bullet.png');
 }
 
 .container-empty {
